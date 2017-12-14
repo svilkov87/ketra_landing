@@ -2034,7 +2034,7 @@ $time = time() - 20;
                                 <p class="ad_p">Рождественская ул, дом N 11-13/7</p>
                                 <p class="ad_p">Помещение П2, офис 210</p>
                                 <p class="ad_p">brr.rk52@gmail.com</p>
-                                <p class="ad_p">+7(831) 21-41-900</p>
+                                <p class="ad_p">8(831) 4-206-306</p>
                             </div>
                         </div>
                     </div>
