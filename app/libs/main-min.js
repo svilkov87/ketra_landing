@@ -126,10 +126,9 @@ $(document).ready(function(){
     // форма отправки заказа
     $('.btn_modal').click(function(e){
         e.preventDefault();
-            var name = $('#name').val(),
-                phone = $('#phone_number').val();
+        var phone = $('#phone_number').val();
 
-        if( name == "" || phone == ""){
+        if(phone == ""){
             $('.err_block').css("display" , "block");
         }
         else {
@@ -163,7 +162,7 @@ $(document).ready(function(){
                 local = $('#del_local').val(),
                 count = $('#del_count').val();
 
-        if( del_name == "" || del_phone == "" || local == "" || count == ""){
+        if( del_phone == ""){
             $('.err_block_del').css("display" , "block");
         }
         else {

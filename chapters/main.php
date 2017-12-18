@@ -199,7 +199,7 @@ $time = time() - 20;
                     <div class="header">Оставить заявку</div>
                     <div class="modal_forms">
                         <div class="err_block">
-                            Не все поля заполнены!
+                            Номер телефона должен быть указан!
                         </div>
                         <div class="modal_confirm">
                             Спасибо, мы свяжемся с Вами в ближайшее время!
@@ -212,7 +212,7 @@ $time = time() - 20;
                         </div>
                         <form action="" method="post" id="my_form">
                             <div class="form_line">
-                                <label>Введите имя *</label>
+                                <label>Введите имя</label>
                                 <input type="text" name="name" class="form_style" id="name" placeholder="Ваше имя">
                             </div>
                             <div class="form_line">
@@ -1715,7 +1715,7 @@ $time = time() - 20;
                 <div class="header">Оставить заявку</div>
                 <div class="modal_forms">
                     <div class="err_block_del">
-                        Не все поля заполнены!
+                        Номер телефона должен быть указан!
                     </div>
                     <div class="modal_confirm_del">
                         Спасибо!
@@ -1728,7 +1728,7 @@ $time = time() - 20;
                     </div>
                     <form action="" method="post" id="del_form">
                         <div class="form_line">
-                            <label>Введите имя *</label>
+                            <label>Введите имя</label>
                             <input type="text" name="name" class="form_style" id="user_name" placeholder="Ваше имя">
                         </div>
                         <div class="form_line">
@@ -1736,11 +1736,11 @@ $time = time() - 20;
                             <input type="text" name="phone" class="form_style" id="del_phone" placeholder="+ 7 900 800 00 00">
                         </div>
                         <div class="form_line">
-                            <label>Населенный пункт *</label>
+                            <label>Населенный пункт</label>
                             <input type="text" name="local" class="form_style" id="del_local" placeholder="...">
                         </div>
                         <div class="form_line">
-                            <label>Количество блоков *</label>
+                            <label>Количество блоков</label>
                             <input type="text" name="count_blocks" class="form_style" id="del_count" placeholder="20">
                         </div>
                         <button type="submit" name="enter" class="btn_del">Заказать звонок</button>
