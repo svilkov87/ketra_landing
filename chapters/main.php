@@ -122,13 +122,6 @@ $time = time() - 20;
             <div class="container">
                 <div class="row">
                     <div class="nav_left">
-                        <i class="fa fa-mobile" aria-hidden="true"></i>
-                        <span>8(831) 4-206-306</span>
-
-                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                        <span> BRR.RK52@GMAIL.COM</span>
-                    </div>
-                    <div class="nav_right">
                         <i class="fa fa-align-justify" aria-hidden="true"></i>
                         <ul class="ul_right">
                             <li class="li_right"><a href="#main" class="active">Главная</a></li>
@@ -137,6 +130,12 @@ $time = time() - 20;
                             <li class="li_right"><a href="#actions">Акции</a></li>
                             <li class="li_right"><a href="#contacts">Контакты</a></li>
                         </ul>
+                    </div>
+                    <div class="nav_right">
+                        <i class="fa fa-mobile" aria-hidden="true"></i>
+                        <span>8(831) 4-206-306</span>
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <span> BRR.RK52@GMAIL.COM</span>
                     </div>
                 </div>
             </div>
@@ -156,68 +155,43 @@ $time = time() - 20;
     <section class="cv_sections" id="products">
         <div class="container">
             <div class="row">
-                <div class="before_content wow fadeIn" data-wow-delay=".7s">
-                    <div class="pr_header">
-                        <h2>Сегодня "КЕТРА" это:</h2>
+                <h2 class="today_ketra_header">Сегодня "КЕТРА" это:</h2>
+                <div class="today_ketra_wrapp">
+                    <div class="col-md-6">
+                        <div class="today_ketra">
+                            <h3>Тепло и звукоизоляция</h3>
+                            <p class="sp_adv">Возведение стен без использования дополнительных утепляющих
+                                материалов</p>
+                            <p class="sp_adv">Экономия отопления</p>
+                            <p class="sp_adv">Исключение расходов на звукоизоляцию помещения</p>
+                        </div>
+                        <div class="today_ketra">
+                                <h3>Высокая скорость строительства</h3>
+                                <p class="sp_adv">Однорядная кладка, в которой длина камня соотвествует толщине
+                                стены</p>
+                                <p class="sp_adv">Скорость кладки 1м2 стены из блоков в 10 раз быстрее, чем из
+                                малоформатного кирпича</p>
+                        </div>
                     </div>
-                    <div class="slider_area">
-                        <ul class="bx_slider">
-                            <li>
-                                <div class="info">
-                                    <div class="inf_header">
-                                        <h3>Тепло и звукоизоляция</h3>
-                                    </div>
-                                    <div class="inf_body">
-                                        <p class="sp_adv">Возведение стен без использования дополнительных утепляющих
-                                            материалов</p>
-                                        <p class="sp_adv">Экономия отопления</p>
-                                        <p class="sp_adv">Исключение расходов на звукоизоляцию помещения</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="info">
-                                    <div class="inf_header">
-                                        <h3>Высокая скорость строительства</h3>
-                                    </div>
-                                    <div class="inf_body">
-                                        <p class="sp_adv">Однорядная кладка, в которой длина камня соотвествует толщине
-                                            стены</p>
-                                        <p class="sp_adv">Скорость кладки 1м2 стены из блоков в 10 раз быстрее, чем из
-                                            малоформатного кирпича</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="info">
-                                    <div class="inf_header">
-                                        <h3>Экологичность</h3>
-                                    </div>
-                                    <div class="inf_body">
-                                        <p class="sp_adv">Основной материал - глина</p>
-                                        <p class="sp_adv">Не содержит вредных примесей</p>
-                                        <p class="sp_adv">Идеальный влаго- и теплообмен. Ваши стены "дышат"</p>
-                                        <p class="sp_adv">Предотвращение образования плесени и грибков</p>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="info">
-                                    <div class="inf_header">
-                                        <h3>Экономия ресурсов</h3>
-                                    </div>
-                                    <div class="inf_body">
-                                        <p class="sp_adv">Сокращение расхода раствора за счет отсутсвия швов</p>
-                                        <p class="sp_adv">Уменьшение использования рабочей силы</p>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
+                    <div class="col-md-6">
+                        <div class="today_ketra">
+                            <h3>Экологичность</h3>
+                            <p class="sp_adv">Основной материал - глина</p>
+                            <p class="sp_adv">Не содержит вредных примесей</p>
+                            <p class="sp_adv">Идеальный влаго- и теплообмен. Ваши стены "дышат"</p>
+                            <p class="sp_adv">Предотвращение образования плесени и грибков</p>                          
+                        </div>
+                        <div class="today_ketra">
+                            <h3>Экономия ресурсов</h3>
+                            <p class="sp_adv">Сокращение расхода раствора за счет отсутсвия швов</p>
+                            <p class="sp_adv">Уменьшение использования рабочей силы</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="product_content">
+            <h3 class="product_content_header">Каталог продукции КЕТРА</h3>
             <!--modal-->
             <div class="bg_phone">
                 <div class="phone">
@@ -277,6 +251,7 @@ $time = time() - 20;
                                 <div class="desc_head">
                                     <div class="desc_title">
                                         <h3>КЕТРА 51</h3>
+                                        <img src="app/img/product_img/K-51.jpg" alt="ketra51" class="desc_img_header">
                                     </div>
                                 </div>
                                 <div class="content_desc">
@@ -417,6 +392,7 @@ $time = time() - 20;
                                 <div class="desc_head">
                                     <div class="desc_title">
                                         <h3>КЕТРА 44</h3>
+                                        <img src="app/img/product_img/K-44.jpg" alt="ketra44" class="desc_img_header">
                                     </div>
                                 </div>
                                 <div class="content_desc">
@@ -557,6 +533,7 @@ $time = time() - 20;
                                 <div class="desc_head">
                                     <div class="desc_title">
                                         <h3>КЕТРА 38</h3>
+                                        <img src="app/img/product_img/K-38.jpg" alt="ketra51" class="desc_img_header">
                                     </div>
                                 </div>
                                 <div class="content_desc">
@@ -697,6 +674,7 @@ $time = time() - 20;
                                 <div class="desc_head">
                                     <div class="desc_title">
                                         <h3>КЕТРА 38 Климаблок</h3>
+                                        <img src="app/img/product_img/1450870562_ketra-blok-38-2.jpg" alt="ketra51" class="desc_img_header">
                                     </div>
                                 </div>
                                 <div class="content_desc">
@@ -837,6 +815,7 @@ $time = time() - 20;
                                 <div class="desc_head">
                                     <div class="desc_title">
                                         <h3>КЕТРА 25</h3>
+                                        <img src="app/img/product_img/K-25.jpg" alt="ketra51" class="desc_img_header">  
                                     </div>
                                 </div>
                                 <div class="content_desc">
@@ -976,6 +955,7 @@ $time = time() - 20;
                                 <div class="desc_head">
                                     <div class="desc_title">
                                         <h3>КЕТРА 2.1</h3>
+                                        <img src="app/img/product_img/K-2_1.jpg" alt="ketra51" class="desc_img_header">
                                     </div>
                                 </div>
                                 <div class="content_desc">
@@ -1115,6 +1095,7 @@ $time = time() - 20;
                                 <div class="desc_head">
                                     <div class="desc_title">
                                         <h3>КЕТРА 20</h3>
+                                        <img src="app/img/product_img/K-20.jpg" alt="ketra20" class="desc_img_header">
                                     </div>
                                 </div>
                                 <div class="content_desc">
@@ -1254,6 +1235,7 @@ $time = time() - 20;
                                 <div class="desc_head">
                                     <div class="desc_title">
                                         <h3>КЕТРА 12</h3>
+                                        <img src="app/img/product_img/K-12.jpg" alt="ketra51" class="desc_img_header">
                                     </div>
                                 </div>
                                 <div class="content_desc">
@@ -1393,6 +1375,7 @@ $time = time() - 20;
                                 <div class="desc_head">
                                     <div class="desc_title">
                                         <h3>КЕТРА 10</h3>
+                                        <img src="app/img/product_img/K-10.jpg" alt="ketra10" class="desc_img_header">
                                     </div>
                                 </div>
                                 <div class="content_desc">
@@ -1532,6 +1515,7 @@ $time = time() - 20;
                                 <div class="desc_head">
                                     <div class="desc_title">
                                         <h3>Кетра блок 8</h3>
+                                        <img src="app/img/product_img/KB-8.png" alt="ketra51" class="desc_img_header">
                                     </div>
                                 </div>
                                 <div class="content_desc">
@@ -1680,43 +1664,47 @@ $time = time() - 20;
         </div>
     </section>
     <section class="cv_sections" id="delivery">
-        <div class="del_header">
-            <h3 class="wow fadeInDown" data-wow-delay="1.2s">Организация доставки "Под ключ"</h3>
-        </div>
-        <div class="del_content">
-            <div class="col-md-6">
-                <div class="del_items wow fadeInLeft" data-wow-delay="1.2s">
-                    <div class="item">
-                        <h4>Tранспорт</h4>
-                        <ul class="ul_del">
-                            <li class="li_del">Мы сторудничаем с надежными партнерами по траспорту</li>
-                            <li class="li_del">Полное соблюдение сроков</li>
-                        </ul>
+        <div class="container">
+            <div class="row">
+                <div class="del_header">
+                    <h3 class="wow fadeInDown" data-wow-delay="1.2s">Организация доставки "Под ключ"</h3>
+                </div>
+                <div class="del_content">
+                    <div class="col-md-6">
+                        <div class="del_items wow fadeInLeft" data-wow-delay="1.2s">
+                            <div class="item">
+                                <h4>Tранспорт</h4>
+                                <ul class="ul_del">
+                                    <li class="li_del">Мы сторудничаем с надежными партнерами по траспорту</li>
+                                    <li class="li_del">Полное соблюдение сроков</li>
+                                </ul>
+                            </div>
+                            <div class="item">
+                                <h4>Доставка по всей России</h4>
+                                <ul class="ul_del">
+                                    <li class="li_del">Индивидуальный расчет доставки</li>
+                                    <li class="li_del">Удобный для Вас вид транспорта</li>
+                                </ul>
+                            </div>
+                            <div class="item">
+                                <h4>Своевременная доставка</h4>
+                                <ul class="ul_del">
+                                    <li class="li_del">Точное соблюдение сроков поставки</li>
+                                    <li class="li_del">Отслежование местонахождения Вашего товара</li>
+                                </ul>
+                            </div>
+                            <div class="item">
+                                <h4>Отложенная доставка</h4>
+                                <ul class="ul_del">
+                                    <li class="li_del">Вы можете заранее забронировать необходимый объем продукции</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div class="item">
-                        <h4>Доставка по всей России</h4>
-                        <ul class="ul_del">
-                            <li class="li_del">Индивидуальный расчет доставки</li>
-                            <li class="li_del">Удобный для Вас вид транспорта</li>
-                        </ul>
-                    </div>
-                    <div class="item">
-                        <h4>Своевременная доставка</h4>
-                        <ul class="ul_del">
-                            <li class="li_del">Точное соблюдение сроков поставки</li>
-                            <li class="li_del">Отслежование местонахождения Вашего товара</li>
-                        </ul>
-                    </div>
-                    <div class="item">
-                        <h4>Отложенная доставка</h4>
-                        <ul class="ul_del">
-                            <li class="li_del">Вы можете заранее забронировать необходимый объем продукции</li>
-                        </ul>
+                    <div class="col-md-6">
+                        <div class="bg_truck wow fadeInRight" data-wow-delay="1.2s"></div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="bg_truck wow fadeInRight" data-wow-delay="1.2s"></div>
             </div>
         </div>
     </section>
