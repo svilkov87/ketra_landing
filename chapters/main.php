@@ -136,6 +136,7 @@ $time = time() - 20;
                         <span>8(831) 4-206-306</span>
                         <i class="fa fa-envelope-o" aria-hidden="true"></i>
                         <span> BRR.RK52@GMAIL.COM</span>
+                        <div class="nav_right__call bg_call">заказать звонок</div>
                     </div>
                 </div>
             </div>
@@ -145,7 +146,7 @@ $time = time() - 20;
         <div class="container">
             <div class="row">
                 <div class="head_top">
-                    <h1 class="wow fadeInDown" data-wow-delay=".7s">Керамические блоки КЕТРА</h1>
+                    <h1 class="wow fadeInDown" data-wow-delay=".7s">Керамические блоки КЕТРА с доставкой по Нижнему Новгороду и области</h1>
                     <span class="span_ht wow fadeInLeft" data-wow-delay=".7s">Высокий стандарт строительства</span>
                 </div>
                 <div class="go wow fadeInRight" data-wow-delay=".7s">Узнать больше</div>
@@ -179,7 +180,7 @@ $time = time() - 20;
                             <p class="sp_adv">Основной материал - глина</p>
                             <p class="sp_adv">Не содержит вредных примесей</p>
                             <p class="sp_adv">Идеальный влаго- и теплообмен. Ваши стены "дышат"</p>
-                            <p class="sp_adv">Предотвращение образования плесени и грибков</p>                          
+                            <p class="sp_adv">Предотвращение образования плесени и грибков</p>
                         </div>
                         <div class="today_ketra">
                             <h3>Экономия ресурсов</h3>
@@ -815,7 +816,7 @@ $time = time() - 20;
                                 <div class="desc_head">
                                     <div class="desc_title">
                                         <h3>КЕТРА 25</h3>
-                                        <img src="app/img/product_img/K-25.jpg" alt="ketra51" class="desc_img_header">  
+                                        <img src="app/img/product_img/K-25.jpg" alt="ketra51" class="desc_img_header">
                                     </div>
                                 </div>
                                 <div class="content_desc">
@@ -1771,7 +1772,7 @@ $time = time() - 20;
                             <div class="header">Оставить заявку</div>
                             <div class="modal_forms">
                                 <div class="err_block_act">
-                                    Не все поля заполнены!
+                                    Номер телефона должен быть указан!
                                 </div>
                                 <div class="modal_confirm_act">
                                     Спасибо,Мы свяжемся с Вами в скором времени!
@@ -1784,7 +1785,7 @@ $time = time() - 20;
                                 </div>
                                 <form action="" method="post" id="act_form">
                                     <div class="form_line">
-                                        <label>Введите имя *</label>
+                                        <label>Введите имя</label>
                                         <input type="text" name="name" class="form_style" id="act_name" placeholder="Ваше имя">
                                     </div>
                                     <div class="form_line">
@@ -1984,7 +1985,7 @@ $time = time() - 20;
                                     <ul class="ul-terms">
                                         <li class="li-terms">Срок действия акции: с 01.11.2017 по 31.05.2018 года</li>
                                         <li class="li-terms">Оплаченный Вами кирпич будет бесплатно храниться на нашем складе</li>
-                                        <li class="li-terms">Поставка осуществляется по Вашему запросу до 31 мая 2017г. 
+                                        <li class="li-terms">Поставка осуществляется по Вашему запросу до 31 мая 2017г.
                                         Для этого необходимо проинформировать нас о дате поставки заранее</li>
                                     </ul>
                                 </div>

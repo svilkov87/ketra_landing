@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+    alert('testing process...')
+
     //loader
      $(window).load(function() {
      $("#object").fadeOut();
@@ -120,7 +122,7 @@ $(document).ready(function(){
             $('.bg_del').removeClass('show');
         });
     });
-    
+
 
 
     // форма отправки заказа
@@ -152,8 +154,8 @@ $(document).ready(function(){
             $('.err_block').css("display" , "none");
         });
     });
-    
-    
+
+
     // форма заявки на траспортировку
     $('.btn_del').click(function(e){
         e.preventDefault();
@@ -193,7 +195,7 @@ $(document).ready(function(){
             act_phone = $('#act_phone').val();
 
 
-        if( act_name == "" || act_phone == ""){
+        if(act_phone == ""){
             // alert('fuck');
             $('.err_block_act').css("display" , "block");
         }
