@@ -146,7 +146,8 @@ $time = time() - 20;
         <div class="container">
             <div class="row">
                 <div class="head_top">
-                    <h1 class="wow fadeInDown" data-wow-delay=".7s">Керамические блоки КЕТРА с доставкой по Нижнему Новгороду и области</h1>
+                    <h1 class="wow fadeInDown" data-wow-delay=".7s">Керамические блоки КЕТРА</h1>
+                    <h2 class="wow fadeInDown" data-wow-delay=".7s">с доставкой по Нижнему Новгороду и области</h2>
                     <span class="span_ht wow fadeInLeft" data-wow-delay=".7s">Высокий стандарт строительства</span>
                 </div>
                 <div class="go wow fadeInRight" data-wow-delay=".7s">Узнать больше</div>
@@ -222,8 +223,13 @@ $time = time() - 20;
                             </div>
                             <button type="submit" name="enter" class="btn_modal">Заказать звонок</button>
                         </form>
+                        <div class="b-disclamer">
+                            <input type="checkbox" class="b-disclamer__checkbox" checked>
+                            <p class="b-disclamer__text">
+                                Я согласен на обработку персональных данных в соответствии с ФЗ РФ от 27.07.2006г. № 152-ФЗ (ред. от 21.07.2014) «О персональных данных».
+                            </p>
+                        </div>
                     </div>
-
                 </div>
             </div>
             <div class="container">
@@ -1746,6 +1752,12 @@ $time = time() - 20;
                         </div>
                         <button type="submit" name="enter" class="btn_del">Заказать звонок</button>
                     </form>
+                    <div class="b-disclamer-del">
+                        <input type="checkbox" class="b-disclamer-del__checkbox" checked>
+                        <p class="b-disclamer__text">
+                            Я согласен на обработку персональных данных в соответствии с ФЗ РФ от 27.07.2006г. № 152-ФЗ (ред. от 21.07.2014) «О персональных данных».
+                        </p>
+                    </div>
                 </div>
 
             </div>
@@ -1794,6 +1806,12 @@ $time = time() - 20;
                                     </div>
                                     <button type="submit" name="enter" class="btn_act">Заказать звонок</button>
                                 </form>
+                                <div class="b-disclamer-act">
+                                    <input type="checkbox" class="b-disclamer-act__checkbox" checked>
+                                    <p class="b-disclamer__text">
+                                        Я согласен на обработку персональных данных в соответствии с ФЗ РФ от 27.07.2006г. № 152-ФЗ (ред. от 21.07.2014) «О персональных данных».
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -1,12 +1,10 @@
 $(document).ready(function(){
 
-    alert('testing process...')
-
     //loader
-     $(window).load(function() {
-     $("#object").fadeOut();
-     $("#loading").delay(100).fadeOut("slow");
-     });
+    $(window).load(function() {
+       $("#object").fadeOut();
+       $("#loading").delay(100).fadeOut("slow");
+    });
 
     //скролл side главная страница
     $(window).scroll(function () {
@@ -33,29 +31,23 @@ $(document).ready(function(){
         var id = $(this).attr('href'),
 
         // находим высоту, на которой расположен блок
-            top = $(id).offset().top;
+        top = $(id).offset().top;
 
         // анимируем переход к блоку, время: 800 мс
         $('body,html').animate({scrollTop: top}, 800);
     });
 
-
-
-
-
-// выпадающее меню
-  $(".fa-align-justify").click(function(){
-    $(".ul_right").fadeToggle(500);
-  });
-
-
+    // выпадающее меню
+    $(".fa-align-justify").click(function(){
+        $(".ul_right").fadeToggle(500);
+    });
 
     $(".product_wrapp").click(function () {
         var bg = $(this).next(".b_bg").toggleClass('down');
         bg.find(".big_desc").toggleClass('down');
     });
 
-    //показать хар=ки продукта в акциях
+    //показать хар-ки продукта в акциях
     $(".act_item").click(function () {
         var bg = $(this).next(".act_bg").toggleClass('down');
         var descAct = bg.find(".big_desc").toggleClass('down');
@@ -78,8 +70,6 @@ $(document).ready(function(){
             });
         });
     });
-
-
 
     $('.fa_times').click(function () {
         var popup = $(this).parent('.big_desc').removeClass('down');
@@ -108,12 +98,10 @@ $(document).ready(function(){
         $('.bg_phone').addClass('show');
     });
 
-
     $('#q_close' ).click(function () {
         var q_del = $(this).parent('.q_modal_wr').removeClass('show');
         q_del.parent('.q_del_m').removeClass('show');
     });
-
 
     //показать форму доставка
     $(".link-btn").click(function () {
@@ -122,8 +110,6 @@ $(document).ready(function(){
             $('.bg_del').removeClass('show');
         });
     });
-
-
 
     // форма отправки заказа
     $('.btn_modal').click(function(e){
@@ -155,14 +141,13 @@ $(document).ready(function(){
         });
     });
 
-
     // форма заявки на траспортировку
     $('.btn_del').click(function(e){
         e.preventDefault();
-            var del_name = $('#user_name').val(),
-                del_phone = $('#del_phone').val(),
-                local = $('#del_local').val(),
-                count = $('#del_count').val();
+        var del_name = $('#user_name').val(),
+        del_phone = $('#del_phone').val(),
+        local = $('#del_local').val(),
+        count = $('#del_count').val();
 
         if( del_phone == ""){
             $('.err_block_del').css("display" , "block");
@@ -187,13 +172,11 @@ $(document).ready(function(){
         });
     });
 
-
     // форма заявки на акции
     $('.btn_act').click(function(e){
         e.preventDefault();
         var act_name = $('#act_name').val(),
-            act_phone = $('#act_phone').val();
-
+        act_phone = $('#act_phone').val();
 
         if(act_phone == ""){
             // alert('fuck');
@@ -220,36 +203,33 @@ $(document).ready(function(){
     });
 
     //Плавный скролл до блока .div по клику на .scroll
-  //Документация: https://github.com/flesler/jquery.scrollTo
-  $(".go").click(function() {
-    // alert('test');
-    $.scrollTo($("#products"), 800, {
-      offset: 0
+    //Документация: https://github.com/flesler/jquery.scrollTo
+    $(".go").click(function() {
+        $.scrollTo($("#products"), 800, {
+          offset: 0
+        });
     });
-  });
 
-  // показать кнопку наверх
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > 250){
-      $('#top').fadeIn(100);
-    }
-    else{
-      $('#top').fadeOut(100);
-    }
-  });
+    // показать кнопку наверх
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 250){
+            $('#top').fadeIn(100);
+        }
+        else{
+            $('#top').fadeOut(100);
+        }
+    });
 
-
-
-  //Кнопка "Наверх"
-  //Документация:
-  //http://api.jquery.com/scrolltop/
-  //http://api.jquery.com/animate/
-  $("#top").click(function () {
-    $("body, html").animate({
-      scrollTop: 0
-    }, 800);
-    return false;
-  });
+    //Кнопка "Наверх"
+    //Документация:
+    //http://api.jquery.com/scrolltop/
+    //http://api.jquery.com/animate/
+    $("#top").click(function () {
+        $("body, html").animate({
+            scrollTop: 0
+        }, 800);
+            return false;
+    });
 
     //фиксированный нав
     $(window).scroll(function() {
@@ -261,5 +241,54 @@ $(document).ready(function(){
         }
     });
 
+    //дисклеймер
+    var $checkBoxPolitic = $('.modal_forms').find('.b-disclamer__checkbox'),
+        $buttonPolitic   = $('.modal_forms').find('.btn_modal');
+
+    $checkBoxPolitic.on('change', function(){
+        if ($(this).is(':checked')) {
+                $buttonPolitic.prop('disabled', false).removeClass('hidden_btn');
+                console.log('checked');
+            }
+            else{
+                $buttonPolitic.prop('disabled', true).addClass('hidden_btn');
+            }
+
+            // if($('#check1').is(':disabled')) {
+            //     $('#check1').addClass('hidden');
+            // }
+            // else{
+            //     $('#check1').removeClass('hidden');
+            // }
+    });
+
+
+    //дисклеймер доставка
+    var $checkBoxPoliticDel = $('.modal_forms').find('.b-disclamer-del__checkbox'),
+        $buttonPoliticDel   = $('.modal_forms').find('.btn_del');
+
+    $checkBoxPoliticDel.on('change', function(){
+        if ($(this).is(':checked')) {
+                $buttonPoliticDel.prop('disabled', false).removeClass('hidden_btn');
+                console.log('checked');
+            }
+        else{
+            $buttonPoliticDel.prop('disabled', true).addClass('hidden_btn');
+        }
+    });
+
+    //дисклеймер акции
+    var $checkBoxPoliticAct = $('.modal_forms').find('.b-disclamer-act__checkbox'),
+        $buttonPoliticAct   = $('.modal_forms').find('.btn_act');
+
+    $checkBoxPoliticAct.on('change', function(){
+        if ($(this).is(':checked')) {
+                $buttonPoliticAct.prop('disabled', false).removeClass('hidden_btn');
+                console.log('checked');
+            }
+        else{
+            $buttonPoliticAct.prop('disabled', true).addClass('hidden_btn');
+        }
+    });
 });
 

@@ -226,8 +226,8 @@ body{
   //section main
   #main {
     height: 600px;
-    //background: url(../img/bg_main.jpg) repeat-y;
-    background: url(../img/bg4.jpg) repeat-y;
+    background: url(../img/home_banner.jpg) repeat-y;
+    // background: url(../img/bg4.jpg) repeat-y;
     background-size: cover;
     -webkit-background-size: cover;
     background-position: 50% 50%;
@@ -242,9 +242,9 @@ body{
       @include smart_vert_hor{
         text-align: center;
       }
-      h1 {
+      h1, h2 {
         text-transform: uppercase;
-        font-size: 2rem;
+        font-size: 3rem;
         color: #fff;
         max-width: 780px;
         @include smart_vert_hor{
@@ -433,16 +433,22 @@ body{
       overflow: hidden;
       .today_ketra{
         margin-bottom: 15px;
-        min-height: 155px;
+        min-height: 175px;
         border: 1px solid #eee;
         padding: 15px;
         border-radius: 3px;
+        @include transition(.4s);
+        &:hover {
+          @include bsh(0px 0px 5px 0px rgba(50, 50, 50, 0.95));
+        }
         h3{
           color: $nav_bg_hover;
           margin-bottom: 15px;
+          font-size: 1.5rem;
         }
         .sp_adv {
-          padding-bottom: 5px;
+          padding-bottom: 10px;
+          margin-left: 10px;
         }
       }
     }
@@ -681,8 +687,7 @@ body{
               -webkit-animation-delay: 1.04s;
               -moz-animation-delay: 1.04s;
             }
-
-
+            // end loader
             .form_line{
               margin-bottom: 10px;
               label{
@@ -716,7 +721,20 @@ body{
               width: 100%;
               outline: 0;
             }
-
+            .hidden_btn{
+              filter: brightness(79%);
+            }
+            .b-disclamer{
+              position: relative;
+              margin-top: 25px;
+              .b-disclamer__checkbox{
+                position: absolute;
+              }
+              .b-disclamer__text{
+                padding-left: 20px;
+                font-size: 13px;
+              }
+            }
           }
         }
         .phone_show{
@@ -935,15 +953,11 @@ body{
               height: 60px;
               position: relative;
               .desc_img_header{
-                position: absolute;
-                height: 60px;
-                top: 0;
-                left: 15px;
-                padding: 5px;
+                display: none;
               }
               h3{
                 line-height: 60px;
-                padding-left: 80px;
+                padding-left: 15px;
               }
             }
           }
@@ -1204,6 +1218,20 @@ body{
                 line-height: 1;
                 border: none;
                 outline: 0;
+              }
+              .hidden_btn{
+                filter: brightness(79%);
+              }
+              .b-disclamer{
+                position: relative;
+                margin-top: 25px;
+                .b-disclamer__checkbox{
+                  position: absolute;
+                }
+                .b-disclamer__text{
+                  padding-left: 20px;
+                  font-size: 13px;
+                }
               }
             }
           }
@@ -1601,6 +1629,20 @@ body{
             width: 100%;
             outline: 0;
           }
+          .hidden_btn{
+            filter: brightness(79%);
+          }
+          .b-disclamer-del{
+            position: relative;
+            margin-top: 25px;
+            .b-disclamer-del__checkbox{
+              position: absolute;
+            }
+            .b-disclamer__text{
+              padding-left: 20px;
+              font-size: 13px;
+            }
+          }
         }
       }
       .phone_show{
@@ -1733,6 +1775,20 @@ body{
               line-height: 1;
               border: none;
               outline: 0;
+            }
+            .hidden_btn{
+              filter: brightness(79%);
+            }
+            .b-disclamer{
+              position: relative;
+              margin-top: 25px;
+              .b-disclamer__checkbox{
+                position: absolute;
+              }
+              .b-disclamer__text{
+                padding-left: 20px;
+                font-size: 13px;
+              }
             }
           }
         }
@@ -1983,7 +2039,20 @@ body{
               width: 100%;
               outline: 0;
             }
-
+            .hidden_btn{
+              filter: brightness(79%);
+            }
+            .b-disclamer-act{
+              position: relative;
+              margin-top: 25px;
+              .b-disclamer-act__checkbox{
+                position: absolute;
+              }
+              .b-disclamer__text{
+                padding-left: 20px;
+                font-size: 13px;
+              }
+            }
           }
         }
         .show{
